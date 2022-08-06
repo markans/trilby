@@ -2209,7 +2209,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 
 	#header .header-nav.header-nav-links nav > ul > li > a, #header .header-nav.header-nav-links nav > ul > li:hover > a, #header .header-nav.header-nav-line nav > ul > li > a, #header .header-nav.header-nav-line nav > ul > li:hover > a {
 		position: relative;
-		background: transparent !important;
+		background: transparent;
 		padding: 0 .9rem;
 		margin: 1px 0 0;
 		min-height: 60px;
@@ -2494,7 +2494,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 	}
 
 	#header .header-nav.header-nav-links-side-header nav > ul > li > a {
-		padding: 10px 15px !important;
+		padding: 5px 15px;
 		min-height: 0 !important;
 		border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 		border-radius: 0;
