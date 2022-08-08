@@ -64,6 +64,33 @@ h2 {
     font-size: 14px;
 }
 
+/* TEAM */
+.team {
+    background-color: #142b28;
+}
+
+.team p {
+    color: #fff;
+}
+
+.team p.lead {
+    font-size: 15px;
+    letter-spacing: .1px;
+    font-weight: 400;
+}
+
+h4.company {
+    font-size: 15px;
+    color: #da5e4b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.spg_logo {
+    max-width: 200px;
+}
+
 /* responsive */
 @media (min-width: 992px) {
     html.side-header #header.side-header .header-logo {
