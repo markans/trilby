@@ -6,10 +6,10 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Porto - Multipurpose Website Template</title>	
+		<title>Huntingfield Place</title>	
 
-		<meta name="keywords" content="WebSite Template" />
-		<meta name="description" content="Porto - Multipurpose Website Template">
+		<meta name="keywords" content="Huntingfield Place" />
+		<meta name="description" content="Located in the luxurious suburb of Ivanhoe, the Samma Huntingfield Place Townhomes adds a unique offering to the local area.">
 		<meta name="author" content="okler.net">
 
 		<!-- Favicon -->
@@ -47,6 +47,7 @@
 		<script src="vendor/modernizr/modernizr.min.js"></script>
 
 	</head>
+	<?php echo "hello"; ?>
 	<body data-plugin-page-transition>
 		<div class="body">
 			<header id="header" class="side-header d-flex">
@@ -131,14 +132,14 @@
 			</header>
 
 			<div role="main" class="main">
-				<div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots-hover show-dots-xs dots-light nav-style-1 nav-inside nav-inside-plus nav-light nav-md nav-font-size-md show-nav-hover mb-0" data-plugin-options="{'autoplayTimeout': 9000}" style="height: 100vh;">
+				<div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots-hover show-dots-xs dots-light nav-style-1 nav-inside nav-inside-plus nav-light nav-md nav-font-size-md show-nav-hover mb-0" data-plugin-options="{'autoplay': false}" style="height: 100vh;">
 					<div class="owl-stage-outer">
 						<div class="owl-stage">
 
 							<!-- Carousel Slide 1 -->
-							<div class="owl-item position-relative overlay overlay-show overlay-op-8" style="background-image: url(img/hfs-assets/our-hirstory.jpg); background-size: cover; background-position: center; height: 100vh;">
+							<div class="owl-item position-relative overlay overlay-show overlay-op-2" style="background-image: url(img/hfs-assets/our-hirstory.jpg); background-size: cover; background-position: center; height: 100vh;">
 								<div class="container position-relative z-index-3 h-100">
-									<div class="row justify-content-center align-items-center h-100">
+									<div class="row justify-content-center align-items-center h-100 d-none">
 										<div class="col-lg-6 text-center">
 											<div class="d-flex flex-column align-items-center justify-content-center h-100">
 												<h1 class="text-color-light font-weight-extra-bold text-10 text-md-12-13 line-height-1 line-height-sm-3 mb-2 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">WELCOME TO PORTO</h1>
