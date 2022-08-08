@@ -91,9 +91,11 @@ h4.company {
     max-width: 200px;
 }
 
-.dko_logo {
+.dko_logo,
+.e_logo {
     max-width: 95px;
 }
+
 
 /* responsive */
 @media (min-width: 992px) {
@@ -108,5 +110,9 @@ h4.company {
     .header-logo img {
         max-width: 145px;
  
+    }
+
+    .mtn-80 {
+        margin-top: -80px;
     }
 }
