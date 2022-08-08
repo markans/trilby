@@ -91,6 +91,10 @@ h4.company {
     max-width: 200px;
 }
 
+.dko_logo {
+    max-width: 95px;
+}
+
 /* responsive */
 @media (min-width: 992px) {
     html.side-header #header.side-header .header-logo {
