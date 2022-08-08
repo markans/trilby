@@ -14,6 +14,10 @@ h2 {
     line-height: 1.2;
 }
 
+.copyright {
+    color: #fff;
+}
+
 /* Header */
 #header .header-body {
     background: #142b28;
