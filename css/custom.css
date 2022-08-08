@@ -1,3 +1,19 @@
+/* Typography */
+p,
+h4,
+.ol_vision {
+    color: #1d1730;
+}
+
+h2 span {
+    color: #997455;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
 /* Header */
 #header .header-body {
     background: #142b28;
@@ -17,6 +33,31 @@
 
 #header .header-nav.header-nav-links-side-header nav > ul > li.dropdown > .dropdown-item:before {
     display: none !important;
+}
+
+.small-subheading {
+    letter-spacing: 3px;
+    font-size: 1.1em;
+}
+
+/* OUR VISION */
+
+.ol_vision {
+    font-size: 15px;
+}
+
+.ol_vision li {   
+    margin-bottom: 5px;
+}
+
+.ol_vision_inner {
+    padding-left: 1rem;
+    list-style-type: none;
+}
+
+.ol_vision_inner li {
+    margin-bottom: 0;
+    font-size: 14px;
 }
 
 /* responsive */
