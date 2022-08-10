@@ -115,4 +115,18 @@ h4.company {
     .mtn-80 {
         margin-top: -80px;
     }
+
+    .large-team {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .team p {
+        line-height: 1.4;
+    }
 }
+
+@media (min-width: 1010px) {
+
+}
+
