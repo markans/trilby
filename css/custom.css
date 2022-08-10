@@ -96,6 +96,27 @@ h4.company {
     max-width: 95px;
 }
 
+/* Masterplan */
+.masterplan {
+    background: #142b28;
+}
+
+.masterplan h1,
+.masterplan p {
+    color: #fff;
+}
+
+.masterplan p {
+    line-height: 1.4;
+    font-size: 13px;
+}
+
+.masterplan h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+
 
 /* responsive */
 @media (min-width: 992px) {
@@ -123,6 +144,18 @@ h4.company {
 
     .team p {
         line-height: 1.4;
+    }
+
+    .h-lg-100vh {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .right-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 15px;
     }
 }
 
