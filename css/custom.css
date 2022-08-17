@@ -116,6 +116,26 @@ h4.company {
     font-size: 40px;
 }
 
+/* Team Page */
+.team_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.team_content2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Vision Page */
+.vision_content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
 
 
 /* responsive */
