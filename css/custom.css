@@ -137,6 +137,28 @@ h4.company {
     justify-content: center;
 }
 
+/* Architecture */
+.owl-nav button {
+    background-color: #fff !important;
+    border-radius: 50% !important;
+    padding-top: 5px !important;
+}
+
+.owl-nav button:before {
+    color: #142B28;
+    position: relative !important;
+    top: 2px !important;
+    font-size: 17px !important;
+}
+
+.owl-nav {
+    z-index: 2;
+}
+.owl-dots {
+    z-index: 1;
+}
+
+
 
 /* responsive */
 @media (min-width: 992px) {

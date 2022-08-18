@@ -37,17 +37,16 @@
 		<link rel="stylesheet" href="css/theme-blog.css">
 		<link rel="stylesheet" href="css/theme-shop.css">
 
-		<!-- Skin CSS -->
-		<link id="skinCSS" rel="stylesheet" href="css/skins/skin-corporate-12.css">
-
 		<!-- Theme Custom CSS -->
 		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Skin CSS -->
+		<link id="skinCSS" rel="stylesheet" href="css/skins/skin-corporate-12.css">
 
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.min.js"></script>
 
 	</head>
-	<?php echo "hello"; ?>
 	<body data-plugin-page-transition>
 		<div class="body">
 			<header id="header" class="side-header d-flex">
@@ -132,7 +131,7 @@
 			</header>
 
 			<div role="main" class="main">
-				<div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots-hover show-dots-xs dots-light nav-style-1 nav-inside nav-inside-plus nav-light nav-md nav-font-size-md show-nav-hover mb-0" data-plugin-options="{'autoplayTimeout': 9000}" style="height: 100vh;">
+				<div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots show-dots-xs dots-light nav-inside nav-inside-plus nav-light nav-md nav-font-size-md show-nav mb-0" data-plugin-options="{'autoplayTimeout': 9000}" style="height: 100vh;">
 					<div class="owl-stage-outer">
 						<div class="owl-stage">
 
@@ -221,6 +220,17 @@
 						<button role="button" class="owl-dot"><span></span></button>
 					</div>
 				</div>
+			</div>
+			<style>
+				.owl-carousel .owl-nav {
+					top: 90%;
+					position: absolute;
+					width: 250px;
+					margin: 0 auto;
+					left: 0;
+    				right: 0;
+				}
+			</style>
 
 		<!-- Vendor -->
 		<script src="vendor/jquery/jquery.min.js"></script>
