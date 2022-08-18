@@ -136,7 +136,7 @@
 						<div class="row">
 							<div class="col-12 ">
 
-								<hyper-3d id="wrapper_3d" zoom-limit="0.5 4" point-light="0" src="assets/Huntingfield Place.obj" camera-light="0.5" elevation="10" autorotate autorotate-delay="1" autorotate-speed="0.5" autorotate-elevation="0"></hyper-3d>
+								<hyper-3d id="wrapper_3d" zoom-limit="0.5 4" point-light="0" src="assets/Huntingfield Place.obj" camera-light="0.5" elevation="10" debug direction="-45" direction-limit="-70 70" ></hyper-3d>
 
 								<div class="buttons">
 									<button onclick="document.getElementById('wrapper_3d').moveTo({ zoom: document.getElementById('wrapper_3d').zoom-0.75 });">Zoom in</button>
@@ -204,20 +204,5 @@
 		</style>
 
 		<script type="module" src="js/hyper-3d.min.js"></script>
-		<script>
-			document.getElementById('wrapper_3d').addEventListener( 'click', function(){
-				this.focus();
-			});
-			
-			document.getElementById('wrapper_3d').addEventListener( 'keydown', function(event){
-				if ( event.keyCode == 37 ) {
-					this.direction -= 5;
-					return false;
-				} else if ( event.keyCode == 39 ) {
-					this.direction += 5;
-					return false;		
-				}
-			});
-			</script>
 	</body>
 </html>

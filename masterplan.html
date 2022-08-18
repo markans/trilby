@@ -47,7 +47,7 @@
 		<script src="vendor/modernizr/modernizr.min.js"></script>
 
 	</head>
-	<?php echo "hello"; ?>
+	
 	<body data-plugin-page-transition>
 		<div class="body">
 			<header id="header" class="side-header d-flex">
@@ -133,58 +133,33 @@
 
 			<div role="main" class="main masterplan">
 				<!-- larger screens -->
-				<div class="container d-lg-block d-none">
-					<div class="row justify-content-start py-5 h-lg-100vh">
-                        <div class="col-lg-8 text-left appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100" style="background-image: url('img/hfs-assets/masterplan-new.jpg'); background-size: 750px; background-position: center;">
-
-
+				<div class="container">
+					<div class="row justify-content-start py-5 h-lg-100vh d-none d-lg-flex">
+                        <div class="col-lg-8 text-left appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100" style="background-image: url('img/hfs-assets/masterplan-new.jpg'); background-size: 100% 100%; background-position: center; background-repeat: no-repeat;">
 						</div>
-
 						<div class="col-lg-4 text-left appear-animation right-content" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
                                 <h1>Masterplan</h1>
                                 <p>Utilising the land to its full potential, blocks are carefully proportioned along with perfectly planned landscaping. With paid consideration to the quantity and quality of light that reaches the homes, screening plantation is placed where shade is due and at the fence for privacy purposes.</p>
-                            </div>
-						</div>
+                        </div>
 					</div>
 				</div>
 
 				<!-- smaller screens -->
-				<div class="container d-lg-none d-block">
-					<div class="row justify-content-start pt-4">
-                        <div class="col-lg-6 text-left appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
-							<img class="img-fluid spg_logo" src="img/hfs-assets/Samma_Logo.png" alt="samma property group">
-                            <div class="team-content pt-3 ps-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
-                                <h4 class="company">Samma Property Group</h4>
-                                <p class="lead">- The Developer</p>
-                                <p>Samma is one of the very few residential development companies that have expertise in every aspect of developing, designing, building and managing residential homes.</p>
-                                <p>Our Vision and Values are the foundations upon which we operate. Our guiding light of improving Life in the City of Tomorrow directs our decisions, the way we work and the way we live.</p>
-                            </div>
-						</div>
-					</div>
-                    <div class="row justify-content-lg-end mtn-80 ">
-                        <div class="col-lg-6 text-left appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
-							<img class="img-fluid dko_logo" src="img/hfs-assets/dko_logo.jpg" alt="dko architecture">
-                            <div class="team-content pt-3 ps-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
-                                <h4 class="company">DKO Architecture</h4>
-                                <p class="lead">- The Architect</p>
-                                <p>With a 200+ team across six studios in Australia, New Zealand and South-East Asia, DKO is a dynamic design practice whose strenght lies in Innovative design and effective delivery. Opening in 2000, DKO's expertise spans urban design, master planning, architecture and interior design. From bespoke residence to distinctive residential communitites, hotels, unique hospitality, workspace interiors, urban design and large-scale master planning, DKO is interested in exploring the relationshop between people and their environment. At the core of DKO's design philosophy lies a commitment to design that serves people, respect place and stands the test of time.</p>
-                            </div>
-						</div>
-					</div>
-
-                    <div class="row justify-content-start pb-4 mtn-80">
-                        <div class="col-lg-6 text-left appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
-							<img class="img-fluid e_logo" src="img/hfs-assets/eckersley.jpg" alt="eckersley garden architecture">
-                            <div class="team-content pt-3 ps-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
-                                <h4 class="company">Eckersley garden architecture</h4>
-                                <p class="lead">- The Landscape Architect</p>
-                                <p>Established by iconic designer Rick Eckersley, with partners Scott Leung and Myles Broad, Eckersley Garden Architecture understand how space and facility work together. We design for lifestyle and amenity, believing both formand function should be considered and neither compromised.</p>
-                                <p>With a horticultural focus, we create relaxed and tactile gardens that invite our clients to enjoy their outdoor space. You won't find rows of box hedge here - just plety of dirt under our fingernails.</p>
-                            </div>
+				<div class="container d-lg-none d-block sm-screen">
+					<div class="row pt-4">
+						<div class="col-12">
+							
+							<img class="img-fluid" src="img/hfs-assets/masterplan-new.jpg" alt="masterplan">
+							<h1 class="mt-4 mb-3">Masterplan</h1>
+							<p>Utilising the land to its full potential, blocks are carefully proportioned along with perfectly planned landscaping. With paid consideration to the quantity and quality of light that reaches the homes, screening plantation is placed where shade is due and at the fence for privacy purposes.</p>
+						
 						</div>
 					</div>
 				</div>
-		</div>
+            </div>
+
+			</div>
+        </div>
 
 		<!-- Vendor -->
 		<script src="vendor/jquery/jquery.min.js"></script>
