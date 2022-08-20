@@ -201,7 +201,35 @@ h4.company {
     }
 }
 
-@media (min-width: 1010px) {
+@media (max-width: 991px) {
+    header {
+        height: auto;
+    }
 
+    .header-logo {
+        max-width: 150px;
+    }
+
+    #header .header-btn-collapse-nav {
+        background: #e36159;
+        padding: 10px 15px;
+    }
+
+    #header .header-btn-collapse-nav i {
+        font-size: 25px;
+    }
+
+    nav.collapse .dropdown,
+    #header .header-nav-main:before {
+        background: #3d5b58; 
+    }
+
+    .dropdown a i {
+        display: none !important;
+    }
+
+    .dropdown-item.active {
+        border-bottom: 1px solid #e8e8e8;
+        font-weight: 500 !important;
+    }
 }
-
